@@ -1,5 +1,18 @@
 * {
-    margin: 0;
-    padding: 0;
     box-sizing: border-box;
+    justify-content: center;
+}
+
+body {
+    background-color: red;
+    max-height: 1440px;
+
+}
+
+.mainDiv {
+    background-color: #F3F3F3;
+    margin-left: 165px;
+    max-width: 1110px;
+    height: 615px;
+
 }
