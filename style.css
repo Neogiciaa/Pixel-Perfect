@@ -30,6 +30,7 @@ body {
     position: absolute;
     height: 23px;
     width: 1009px;
+    font-weight: 700;
 }
 
 .first-p span {
@@ -55,6 +56,7 @@ h1 {
     margin-left: 49px;
     color: black;
     position: absolute;
+    text-shadow: 1px 1px grey;
 }
 
 h2 {
@@ -90,18 +92,44 @@ footer p {
     height: 300px;
     background-color: white;
     margin-left: 49px;
-    padding-top: 115px;
+    margin-top: 215px;
+    position: absolute;
     box-shadow: 5px 5px 15px grey;
 }
 
-.card p {
+.john {
     padding-left: 20px;
     padding-top: 10px;
+    font-size: 14px;
+    line-height: 16.41px;
+    font-weight: 700;
 }
 
-img {
+.description {
+    padding-left: 20px;
+    padding-top: 10px;
+    font-size: 14px;
+    line-height: 16.41px;
+    font-weight: 300;
+}
+
+#profil {
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
     height: 200px;
     width: 200px;
+}
+
+#linkedin {
+    height: 18px;
+    width: 18px;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+#whatsapp {
+    height: 18px;
+    width: 18px;
+    margin-top: 10px;
+    /*padding-left: 26px;*/
 }
